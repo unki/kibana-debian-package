@@ -1,0 +1,65 @@
+kibana (5.1.1-1~unki.11) stretch; urgency=medium
+
+  * auto-create user kibana and group 
+
+ -- Andreas Unterkircher <unki@netshadow.net>  Tue, 03 Jan 2017 19:55:11 +0100
+
+kibana (5.1.1-1~unki.10) stretch; urgency=medium
+
+  * even the almost empty optimize directory needs to be included
+
+ -- Andreas Unterkircher <unki@netshadow.net>  Tue, 03 Jan 2017 19:46:02 +0100
+
+kibana (5.1.1-1~unki.9) stretch; urgency=medium
+
+  * also include package.json
+
+ -- Andreas Unterkircher <unki@netshadow.net>  Tue, 03 Jan 2017 19:23:51 +0100
+
+kibana (5.1.1-1~unki.8) stretch; urgency=medium
+
+  * include node_modules into package
+
+ -- Andreas Unterkircher <unki@netshadow.net>  Tue, 03 Jan 2017 19:10:11 +0100
+
+kibana (5.1.1-1~unki.7) stretch; urgency=medium
+
+  * built with newer npm
+
+ -- Andreas Unterkircher <unki@netshadow.net>  Tue, 03 Jan 2017 19:06:41 +0100
+
+kibana (5.1.1-1~unki.6) stretch; urgency=medium
+
+  * add node-babel-register dependency
+
+ -- Andreas Unterkircher <unki@netshadow.net>  Mon, 02 Jan 2017 21:30:04 +0100
+
+kibana (5.1.1-1~unki.5) stretch; urgency=medium
+
+  * more creepy dependency for additional nodejs modules 
+
+ -- Andreas Unterkircher <unki@netshadow.net>  Sun, 01 Jan 2017 17:56:55 +0100
+
+kibana (5.1.1-1~unki.4) stretch; urgency=medium
+
+  * add patch for fixing nodejs path in bin/kibana 
+
+ -- Andreas Unterkircher <unki@netshadow.net>  Sun, 01 Jan 2017 15:50:11 +0100
+
+kibana (5.1.1-1~unki.3) stretch; urgency=medium
+
+  * add nodejs as dependency
+
+ -- Andreas Unterkircher <unki@netshadow.net>  Sun, 01 Jan 2017 15:47:50 +0100
+
+kibana (5.1.1-1~unki.2) stretch; urgency=medium
+
+  * add bin/ directory
+
+ -- Andreas Unterkircher <unki@netshadow.net>  Sun, 01 Jan 2017 15:45:49 +0100
+
+kibana (5.1.1-1~unki.1) stretch; urgency=medium
+
+  * Initial release
+
+ -- Andreas Unterkircher <unki@netshadow.net>  Sun, 01 Jan 2017 15:16:28 +0100

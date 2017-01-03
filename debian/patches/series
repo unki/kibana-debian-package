@@ -1,0 +1,3 @@
+patch-nodejs-no-warning-option.diff
+patch-nodejs-path-in-bin-kibana.diff
+package.json-drop-npm-dependency.patch

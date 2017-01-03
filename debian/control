@@ -1,0 +1,16 @@
+Source: kibana
+Section: unknown
+Priority: optional
+Maintainer: Andreas Unterkircher <unki@netshadow.net>
+Build-Depends: debhelper (>= 9), npm (>= 4.1.1~), git, nodejs (= 4.6.1~dfsg-1~unki.1), libx11-6, libnss3, libnspr4, libgconf-2-4, libfontconfig1, libfreetype6
+Standards-Version: 3.9.8
+Homepage: https://www.elastic.co/de/products/kibana
+Vcs-Git: https://github.com/elastic/kibana.git
+Vcs-Browser: https://github.com/elastic/kibana
+
+Package: kibana
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends},
+	nodejs,
+Description: Kibana analytics and search dashboard for Elasticsearch
+ Kibana analytics and search dashboard for Elasticsearch

@@ -1,0 +1,9 @@
+config/kibana.yml etc/kibana/
+webpackShims/ usr/share/kibana/
+plugins/ usr/share/kibana/
+data/ var/lib/kibana/
+src/ usr/share/kibana/
+bin/ usr/share/kibana/
+node_modules/ usr/share/kibana/
+optimize/ usr/share/kibana/
+package.json usr/share/kibana/
